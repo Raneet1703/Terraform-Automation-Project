@@ -6,5 +6,4 @@ resource "aws_s3_bucket_versioning" "my-s3-bucket" {
     status = "Enabled"
   }
   
-  tags = var.tags
 }
